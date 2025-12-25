@@ -49,7 +49,8 @@ section#login > div#imagem {
     background-color: blueviolet;
 
     background:url(../imagens/pexels-alberto-salum-1784034021-28626097.jpg) no-repeat;
-    background-size: contain;
+    background-size:contain;
+
 
     height: 200px;
 }
