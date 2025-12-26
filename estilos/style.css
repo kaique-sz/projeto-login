@@ -78,3 +78,76 @@ div#formulario > p {
     font-size: 0.8em;
 
 }
+
+form div.campo {
+
+    background-color:rgb(9, 113, 210);
+    display: block;
+
+    margin: 5px 0px;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    width: 100%;
+
+}
+
+form div.campo > label {
+
+    display: none;
+}
+
+form > input[type=submit] {
+
+    display: block;
+
+    background-color:rgb(67, 20, 129);
+    color: white;
+
+    width: 100%;
+    height: 35px;
+
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form > input[type=submit]:hover {
+
+    background-color: rgb(35, 11, 66);
+
+    transition: 0.2s;
+}
+
+form > a {
+
+    display: block;
+
+    background-color:white;
+    color: rgb(107, 32, 205);
+
+    border: 1px solid rgb(67, 20, 129); ;
+
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: none;
+
+    width: 100%;
+    height: 35px;
+
+    border-radius: 5px;
+    
+
+   margin-top: 2px;
+
+}
+
+form > a:hover {
+
+    background-color: rgb(48, 15, 92);
+    transition: 0.2s;
+}
+
+
+
