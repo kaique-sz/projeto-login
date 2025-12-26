@@ -79,6 +79,30 @@ div#formulario > p {
 
 }
 
+form > div > span.material-icons {
+
+    font-size: 30px;
+
+    color: white;
+
+}
+
+form > div > input {
+
+    width: calc(100% - 35px);
+    height: 100%;
+
+    transform: translateY(-11px);
+
+    border-radius: 8px;
+    border: none;
+
+    padding: 15px;
+
+    cursor: pointer;
+}
+
+
 form div.campo {
 
     background-color:rgb(9, 113, 210);
@@ -87,11 +111,13 @@ form div.campo {
     margin: 5px 0px;
     padding: 5px;
 
-    border-radius: 5px;
+    border-radius: 8px;
 
     width: 100%;
+    height: 35px;
 
 }
+
 
 form div.campo > label {
 
@@ -118,6 +144,7 @@ form > input[type=submit]:hover {
     background-color: rgb(35, 11, 66);
 
     transition: 0.2s;
+    cursor: pointer;
 }
 
 form > a {
