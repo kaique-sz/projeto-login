@@ -89,18 +89,13 @@ form > div > span.material-icons {
 
 form > div > input {
 
-    width: calc(100% - 35px);
-    height: 100%;
+    width: calc(100% - 30px);
+    height: 33px;
 
-    transform: translateY(-11px);
+    transform: translateY(-38px) translateX(33px);
 
     border-radius: 8px;
     border: none;
-
-    padding: 15px;
-
-    
-    
 
     cursor: pointer;
 }
