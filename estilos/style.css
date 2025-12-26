@@ -99,6 +99,9 @@ form > div > input {
 
     padding: 15px;
 
+    border: 2px solid rgb(9, 113, 210);
+    
+
     cursor: pointer;
 }
 
@@ -106,6 +109,7 @@ form > div > input {
 form div.campo {
 
     background-color:rgb(9, 113, 210);
+  
     display: block;
 
     margin: 5px 0px;
